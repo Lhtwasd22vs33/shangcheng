@@ -1,0 +1,142 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+@font-face {
+    font-family: 'iconfont';
+    src: url('./font/iconfont.eot');
+    src: url('./font/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('./font/iconfont.woff2') format('woff2'),
+        url('./font/iconfont.woff') format('woff'),
+        url('./font/iconfont.ttf') format('truetype'),
+        url('./font/iconfont.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: .25rem;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.flx{
+    display: flex;
+}
+.warp{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+.hd{
+    position: relative;
+    width: 100%;
+    height: 1.25rem;
+    line-height: 1.25rem;
+    text-align: center;
+    background: cornflowerblue;
+    color: #fff;
+    font-size: .5rem;
+}
+.shbtn{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: .5rem;
+    margin: auto;
+    height: .75rem;
+    line-height: .75rem;
+    width: 2rem;
+    background: darkgray;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+    font-size: .4rem;
+}
+.box{
+    width: 100%;
+    flex: 1;
+    overflow-y: auto;
+    background: lightgray;
+}
+.sug{
+    width: 100%;
+    height: 4rem;
+    margin-bottom: .15625rem;
+    background: #fff;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sugpic{
+    width: 3.3125rem;
+    height: 2rem;
+}
+.p1{
+    background: lightgreen;
+}
+.p2{
+    background: lightpink;
+}
+.p3{
+    background: lightskyblue;
+}
+.p4{
+    background: dodgerblue;
+}
+.p5{
+    background: forestgreen;
+}
+.p6{
+    background: gold;
+}
+.sp1{
+    width: 100%;
+    height: 5.25rem;
+    margin-bottom: .15625rem;
+    background: #fff;
+}
+.sp1-box{
+    width: 100%;
+    height: 4rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sp1pic{
+    width: 3.3125rem;
+    height: 2rem;
+}
+.sp2{
+    width: 100%;
+    height: 5.25rem;
+    margin-bottom: .15625rem;
+    background: #fff;
+}
+.sp-tit{
+    height: 1.25rem;
+    line-height: 1.25rem;
+    text-indent: .15625rem;
+    font-size: .4rem;
+    border-bottom: 1px solid gray;
+}
+.ft{
+    width: 100%;
+    height: 1.25rem;
+    background: cornflowerblue;
+    color: #fff;
+    text-align: center;
+
+}
+.ft-btn{
+    flex: 1;
+    flex-direction: column;
+}
+.icon{
+    height: .75rem;
+    line-height: .75rem;
+    font-size: .5rem;
+}
+.txt{
+    height: .5rem;
+    line-height: .5rem;
+    font-size: .25rem;
+}
